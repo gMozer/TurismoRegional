@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título da Página</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+  </style>
+
+  <script>
+    function setActiveMenu(element) {
+      // Remove a classe 'active' de todos os elementos do menu
+      var menuItems = document.querySelectorAll('nav ul li');
+      menuItems.forEach(function (item) {
+        item.classList.remove('active');
+      });
+
+      // Adiciona a classe 'active' ao elemento clicado
+      element.classList.add('active');
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="setActiveMenu(this);">Home</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Região 1</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Região 2</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Região 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Restante do conteúdo da página -->
+</body>
+
+</html>
