@@ -106,7 +106,8 @@
         <li><a href="#" onclick="setActiveMenu(this);">Home</a></li>
         <li><a href="#" onclick="setActiveMenu(this);">Região 1</a></li>
         <li><a href="#" onclick="setActiveMenu(this);">Região 2</a></li>
-        <li><a href="#" onclick="setActiveMenu(this);">Região 3</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Região 4</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Região 5</a></li>
       </ul>
     </nav>
   </header><br><hr>
