@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa do Brasil SVG</title>
+</head>
+<body>
+<div>
+  <style>
+    #svg-map path { fill:#ccc }
+    #svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+    #svg-map a{ text-decoration:none }
+    #svg-map a:hover { cursor:pointer; text-decoration:none }
+    #svg-map a:hover path{ fill:#003399 !important }
+    #svg-map .circle { fill:#66ccff }
+    #svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
+
+    /* Adicione cores personalizadas para cada região aqui */
+    #svg-map path[title="Nordeste"] { fill: #ff0000; } /* Exemplo: Nordeste em vermelho */
+    /* Adicione mais regras de estilo para outras regiões */
+  </style>
+  <center>
+  <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="auto" height="600px" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
+    <g>
+      <a xlink:href="https://youtube.com">
+      <title>Nordeste</title>
+        <path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M289.558,235.641
+        c16.104,0.575,44.973-31.647,44.835-45.259c-0.136-13.612-17.227-58.446-22.349-66.088c-5.122-7.628-37.905,2.506-37.905,2.506
+        S234.852,233.695,289.558,235.641z"></path>
+        <text transform="matrix(1 0 0 1 287.0137 188.3208)" fill="#FFFFFF"></text>
+
+        <!-- Restante do código SVG -->
+        
+      </a>
+    </g>
+  </svg>
+  </center>
+</div>
+</body>
+</html>
