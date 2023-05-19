@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Mapa do Brasil SVG</title>
-  <hr><center><font color="black" size="10">Principais Pontos Turisticos</font><br><font color="black" size="6">Regiões</font></center><hr>
+  <hr><center><font color="black" size="10">Point do Turismo</font><br><hr><br><font color="black" size="6">Principais Pontos Turisticos<br>Click na Regiões</font></center>
 </head>
 <body>
 <div>
