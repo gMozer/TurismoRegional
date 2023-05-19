@@ -168,7 +168,23 @@
   <hr>
 
 
-  <div class="panel">
+ <div class="panel">
+    <div class="container">
+      <div class="image">
+        <img src="beto_carrero_world_castelo-das-nacoes.jpg" width="350" height="250"
+          alt="Imagem do Beto Carrero World">
+      </div>
+
+      <div class="text">
+        <h1>Beto Carrero World</h1>
+        <p align="justify">Maior parque temático da América Latina, o Beto Carrero World é uma excelente opção de
+          passeio para quem deseja diversão sem gastar muito, com atrações para toda a família. Localizado na cidade de
+          Penha, em Santa Catarina, distante apenas 60 km de Blumenau e vizinho a Navegantes e Balneário Camboriú</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
 </body>
 
 </html>
