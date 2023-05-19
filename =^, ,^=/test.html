@@ -3,20 +3,65 @@
 <head>
 	<title>testes</title>
     <link rel="stylesheet" href="css\base.css">
+    <style>
+        .container{
+            width: 90%;
+            
+            margin: 50px auto;	 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .box{
+            
+            margin: 0 100px;
+            transition: 1s;
+    
+        }
+    
+        .box:hover{
+            transform: scale(1.3);
+            z-index: 2;
+        }
+        </style>
 </head>
-<body class="bggradiente">
+<body background-color="#ccc">
 	<center>
-	<div class="panel" class="full-height">
-    <center><img src="img\mapa.png" height="600" width="auto" usemap="#brasil" alt="mapa"></center>
-    <map name="brasil">
-        <area shape="poly"
-        coords="425,501,374,495,398,460,416,434,436,424,462,420,469,408,478,369,497,364,531,354,564,368,570,378,589,378,595,387,584,407,599,421,598,445,586,465,578,482,562,501,531,502,505,515,483,521,459,540,451,540,436,529,433,515" 
-        target="_blank"
-        title="Sudeste"
-        alt="mapa"
-        href="https://www.youtube.com/shorts/Ohb0zJE5ggY">
-    </map>
-	</div>
+        <font size="15" face="Verdana" color=><b>Turismo Regional</b></font><br>
+        <font size="11" color=>Descubra os melhores pontos turísticos de cada região do Brasil!<br>Clique na região que deseja saber sobre no mapa abaixo:</font><br><br>
+        <img src="img/mapa.png" height="500"><br>
+            <div class="container">
+                <div class="box">
+                    <h1>Norte</h1>
+                    <a href="#"><img src="img/norte.png" height="300"></a>
+                </div>
+                <div class="box">
+                    <h1>Nordeste</h1>
+                    <img src="img/nordeste.png" height="300">
+                </div>
+                <div class="box">
+                    <h1>Centro-Oeste</h1>
+                    <img src="img/centro-oeste.png" height="300">
+                </div>
+            </div>
+            <br>
+
+            <div class="container">
+                <div class="box">
+                    <h1>Sudeste</h1>
+                    <img src="img/sudeste.png" height="300">
+                </div>
+                <div class="box">
+                    <h1>Sul</h1>
+                    <img src="img/sul.png" height="300">
+
+            </div>
+	    
+
+
+
+	
     </center>
 </body>
 </html>
