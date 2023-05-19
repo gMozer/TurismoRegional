@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Título da Página</title>
+  <title>Point Turismo</title>
 
   <style>
     body {
@@ -16,7 +16,7 @@
     }
 
     header {
-      background-color: #333;
+      background-color: green;
       color: #fff;
       padding: 10px;
       text-align: center;
@@ -46,7 +46,7 @@
       width: 90%;
       margin: 20px auto;
       background-color: #fff;
-      border: 3px solid #ccc;
+      border: 3px solid green;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       overflow: hidden;
@@ -104,10 +104,11 @@
     <nav>
       <ul>
         <li><a href="#" onclick="setActiveMenu(this);">Home</a></li>
-        <li><a href="#" onclick="setActiveMenu(this);">Região 1</a></li>
-        <li><a href="#" onclick="setActiveMenu(this);">Região 2</a></li>
-        <li><a href="#" onclick="setActiveMenu(this);">Região 4</a></li>
-        <li><a href="#" onclick="setActiveMenu(this);">Região 5</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Sul</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Sudeste</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Centro-Oeste</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Norte</a></li>
+        <li><a href="#" onclick="setActiveMenu(this);">Nordeste</a></li>
       </ul>
     </nav>
   </header><br><hr>
@@ -124,7 +125,7 @@
       </div>
 
       <div class="image">
-        <img src="11.jpg" width="800" height="500" alt="Imagem de Camboriú">
+        <img src="11.jpg" width="375" height="250" alt="Imagem de Camboriú">
       </div>
     </div>
   </div>
@@ -134,7 +135,7 @@
   <div class="panel">
     <div class="container">
       <div class="image">
-        <img src="beto_carrero_world_castelo-das-nacoes.jpg" width="800" height="500"
+        <img src="beto_carrero_world_castelo-das-nacoes.jpg" width="350" height="250"
           alt="Imagem do Beto Carrero World">
       </div>
 
@@ -152,15 +153,14 @@
   <div class="panel">
     <div class="container">
       <div class="text">
-        <h1>Camboriú</h1>
-        <p align="justify">Em Santa Catarina, região Sul do Brasil, fica Balneário Camboriú, onde os mais modernos
-          arranha-céus do país encontram-se com belas e deliciosas praias. A cidade litorânea possui muitas opções para
-          badalação, como bares, restaurantes, boates, lojas e muito lazer à beira-mar. Além de atrativos e passeios
-          incríveis, a boa gastronomia encanta quem visita a região.</p>
+        <h1>Gramados</h1>
+        <p align="justify">Gramado é a principal cidade da Serra Gaúcha e sem dúvidas é um 
+          dos melhores destinos turísticos do país. Romântica, charmosa, cheia de cultura, belas paisagens, 
+          atrações e ótima culinária, Gramado é capaz de agradar a todos e sempre oferece novas opções.</p>
       </div>
 
       <div class="image">
-        <img src="11.jpg" width="800" height="500" alt="Imagem de Camboriú">
+        <img src="viagem-para-o-sul-do-brasil-740x415.jpg" width="375" height="250" alt="Imagem de Camboriú">
       </div>
     </div>
   </div>
@@ -168,7 +168,23 @@
   <hr>
 
 
-  <div class="panel">
+ <div class="panel">
+    <div class="container">
+      <div class="image">
+        <img src="beto_carrero_world_castelo-das-nacoes.jpg" width="350" height="250"
+          alt="Imagem do Beto Carrero World">
+      </div>
+
+      <div class="text">
+        <h1>Beto Carrero World</h1>
+        <p align="justify">Maior parque temático da América Latina, o Beto Carrero World é uma excelente opção de
+          passeio para quem deseja diversão sem gastar muito, com atrações para toda a família. Localizado na cidade de
+          Penha, em Santa Catarina, distante apenas 60 km de Blumenau e vizinho a Navegantes e Balneário Camboriú</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
 </body>
 
 </html>
