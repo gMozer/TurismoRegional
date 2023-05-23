@@ -46,13 +46,13 @@
     }
     @keyframes silver-background {
       0% {
-        background-image: linear-gradient(45deg, #ffffff, #0000003f);
+        background-image: linear-gradient(45deg, #f0f0f0, #c0c0c0);
       }
       50% {
-        background-image: linear-gradient(45deg, #00000057, #ffffff);
+        background-image: linear-gradient(45deg, #c0c0c0, #f0f0f0);
       }
       100% {
-        background-image: linear-gradient(45deg, #ffffff, #00000042);
+        background-image: linear-gradient(45deg, #f0f0f0, #c0c0c0);
       }
     }
     @keyframes slide-in {
@@ -77,6 +77,46 @@
     .container {
       display: flex;
       align-items: center;
+      background: linear-gradient(0, #120c56, #000000);
+    }
+    .stars{
+      position: relative;
+	  width: 3px;
+	  height: 3px;
+	  border-radius: 50%;
+      box-shadow: 50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white,
+      250px 130px white,
+      200px 50px white,
+      150px 100px white,
+      320px 100px white;
+      animation: anim-stars 10s linear infinite;
+    }
+    @keyframes anim-stars {
+      from {
+          transform: translateY(0px);
+      }
+      to {
+          transform: translateY(-150px);
+      }
+    }
+    .stars::after{
+      content: " ";
+      position: absolute;
+      top: 150px;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      box-shadow: 50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white,
+      250px 130px white,
+      200px 50px white,
+      150px 100px white,
+      320px 100px white;
     }
 
     .image {
@@ -139,6 +179,7 @@
     
   <div class="panel">
     <div class="container">
+    <div class="stars" ></div>
       <div class="text">
         <h1>Vale dos Vinhedos</h1>
         <p align="justify">Descubra um lugar encantador, onde a tradição e o sabor se encontram. Bem-vindo ao Vale dos Vinhedos, um paraíso para os amantes do vinho e da beleza natural!<br><br>
