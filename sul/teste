@@ -199,6 +199,7 @@
 
   <div class="panel">
     <div class="container">
+    <div class="stars" ></div>
       <div class="image">
         <img src="Caminhos de pedra.jpg" width="750" height="600"
           alt="Imagem do Caminhos da Pedra">
@@ -219,6 +220,7 @@
   
   <div class="panel">
     <div class="container">
+    <div class="stars" ></div>
       <div class="text">
         <h1>Gramado</h1>
         <p align="justify">Bem-vindo ao lugar dos sonhos, onde a magia se torna realidade e cada momento é digno de encanto. Prepare-se para uma experiência inesquecível em Gramado, o destino que vai aquecer seu coração e despertar sua imaginação!<br><br>
@@ -239,6 +241,7 @@
 
  <div class="panel">
     <div class="container">
+    <div class="stars" ></div>
       <div class="image">
         <img src="Canela-parques-da-serra-1.jpg" width="750" height="600"
           alt="Imagem de Canela">
