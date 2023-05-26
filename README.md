@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Um site que mostra quatro pontos turísticos de cada região do Brasil. Um mapa SVG é usado como seletor para cada página.<br>Ícone do site e da logo retirado do site [VeryIcon](https://www.veryicon.com)
+Um site que mostra quatro pontos turísticos de cada região do Brasil. Um mapa SVG é usado como seletor para cada página.<br>Ícone do site e da logo retirados do site [VeryIcon](https://www.veryicon.com)
 
 ## Usagem e Instalação
 Acesse o site clicando [aqui](https://gmozer.github.io/TurismoRegional/)<br>Você também pode clonar o repositório com o git ou baixar o código como RAR.
