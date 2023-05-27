@@ -1,0 +1,32 @@
+.panel {
+    width: 80%;
+    text-align: left;
+    border: 3px solid green;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+li {
+    line-height: 1.2;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.2;
+}
+
+#svg-map path { fill:#ccc }
+#svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+#svg-map a{ text-decoration:none }
+#svg-map a:hover { cursor:pointer; text-decoration:none }
+#svg-map a:hover path{ fill: green !important }
+#svg-map .circle { fill:#66ccff }
+#svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
