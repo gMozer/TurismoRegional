@@ -39,8 +39,6 @@ nav ul li a:hover {
     background-color: #fff;
     border: 3px solid green;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 .container {
@@ -49,19 +47,15 @@ nav ul li a:hover {
 }
 
 .image {
-    flex: 6;
     padding: 10px;
-    text-align: center;
 }
 
 .text {
-    flex: 10;
     padding: 10px;
 }
 
 h1 {
     font-size: 24px;
-    margin-top: 0;
 }
 
 p {
@@ -73,5 +67,4 @@ hr {
     border: none;
     height: 1px;
     background-color: #ccc;
-    margin: 20px 0;
 }
