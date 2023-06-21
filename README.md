@@ -15,9 +15,9 @@ $ git clone https://github.com/gMozer/TurismoRegional.git
     
 ## Autores
 
-- [@Belinaci](https://github.com/Belinaci)
-- [@GabrielaOrtiz1](https://github.com/GabrielaOrtiz1)
-- [@gMozer](https://www.github.com/gMozer)
-- [@IsaPortugal](https://github.com/IsaPortugal)
-- [@LeonardoPrestes05](https://github.com/LeonardoPrestes05)
-- [@zRodrigoFerreira](https://github.com/zRodrigoFerreira)
+- [@Belinaci](https://github.com/Belinaci) -  Código e Design.
+- [@GabrielaOrtiz1](https://github.com/GabrielaOrtiz1) - Pesquisa.
+- [@gMozer](https://www.github.com/gMozer) -  Código e Design.
+- [@IsaPortugal](https://github.com/IsaPortugal) - Pesquisa.
+- [@LeonardoPrestes05](https://github.com/LeonardoPrestes05) - Pesquisa.
+- [@zRodrigoFerreira](https://github.com/zRodrigoFerreira) -  Código e Design.
